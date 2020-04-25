@@ -1,0 +1,197 @@
+<html>
+	<head>
+		<title>Adorn</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="images/icon.png"type="image/png" >
+		<link rel="stylesheet" href="maincss.css">
+		</head>
+	<body>
+		<div class="container">
+			<header>
+				<p class="mainName"><a href="WelcomePage.html">
+					Adorn</a></p>
+				<nav>
+					
+
+					<div class="clothing-container">
+						<div class="clothing-button">Clothes</div>
+
+						<div class="clothing-content">
+							<ul>
+								<li>
+									<h3>
+										<a href="dresses.html">Dresses</a>
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="dresses.html">Shirts</a>
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="dresses.html">Bottoms</a>
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="dresses.html">Blouses</a>
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="dresses.html">Tops</a>
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="dresses.html">Skirts</a>
+									</h3>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<a href="dresses.html">Dresses</a>
+					<a href="shoes.html">Shoes</a>
+					<a href="accessories.html">Accessories</a>
+					<a href="#sale.html">Sale</a>
+					<div class="search">
+						<form action="/action_page.php">
+							<input type="text" placeholder="Search.." name="search">
+							<button type="submit"><img src="images/search.png"></button>
+						</form>
+					</div>
+
+				</nav>
+			</header>
+        <main>
+            <section id="contact">
+                <h2 class="w-100 t-center ">BECOME A MEMBER</h2>
+
+
+                <p class="excerpt w-100 t-center">Become a member and get 10% off your next purchase!</p>
+
+
+                <form class="form-register" method="POST" action="index.html">
+
+                    <div class="inputwrapper">
+                        <label class="label" for="signin-email">Email</label>
+                        <input autofocus required max-length="10" placeholder="enter your email adrress" type="email" id="signin-email" name="email" class="text-input" maxlength="150">
+                    </div>
+                    <div class="inputwrapper">
+                        <label class="label" for="signin-password">Create a password</label>
+                        <input required placeholder="enter password(must include 1 lowercase,1 upercase,1 number & special character" type="password" id="signin-password" name="pwd" class="password-input" pattern="^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^\w\d\s:])([^\s]){8,16}$">
+                    </div>
+                    <div class="inputwrapper ">
+                        <label class="label" for="sign-up-form-first-name">First name</label>
+                        <input type="text" id="sign-up-form-first-name" placeholder="enter firstname" name="firstName" maxlength="150" class="text-input  " required>
+                    </div>
+                    <div class="inputwrapper ">
+                        <label class="label" for="sign-up-form-last-name">Last name</label>
+                        <input type="text" id="sign-up-form-last-name" placeholder="enter lastname" name="lastName" maxlength="150" class="text-input " required>
+                    </div>
+                    <div class="inputwrapper ">
+                        <label class="label" for="sign-up-form-gender">Gender</label>
+                        <div>
+                            <input type="radio" name="gender" id="sign-up-form-fgender" value="female" required checked>Female
+                            <input type="radio" name="gender" id="sign-up-form-mgender" value="male" required>Male
+                        </div>
+                    </div>
+
+                    <div class="inputwrapper ">
+                        <label class="label" for="sign-up-form-age">age</label>
+
+                        <input type="number" name="age" id="sign-up-form-age" class="text-input" required min="18" placeholder="18">
+
+                    </div>
+                    <div class="inputwrapper ">
+                        <label class="label" for="sign-up-form-phone">Contact number</label>
+                        <div>
+                            <input type="tel" name="telephone" id="sign-up-form-phone" class="text-input" required placeholder="000 000 0000" pattern="[0-9][0-9][0-9] [0-9][0-9][0-9] [0-9][0-9][0-9][0-9]">
+
+                        </div>
+                    </div>
+                    <div class="inputwrapper ">
+                        <label for="countries_choise">Choose a Country</label>
+                        <input list="countries" id="countries_choise" class="text-input" name="countries" required/>
+
+                        <datalist id="countries">
+                            <option value="Australia">
+                                <option value="Canada">
+                                <option value="India">
+                                <option value="USA">
+                                <option value="Vanilla">
+                            </datalist>
+                    </div>
+                    <div class="inputwrapper ">
+                        <label class="label" for="sign-up-form-postal-code">Postal code
+                        </label>
+                        <input type="text" id="sign-up-form-postal-code" class="text-input" name="postalCode" maxlength="7" pattern="^(?:\s*)([A-Z]{1}\d[A-Z]?)[\s-]*(\d[A-Z]{1}\d)(?:\s*)$" placeholder="e.g. H9B 1Y7">
+                    </div>
+                    <div class="inputwrapper ">
+                        <label class="label" for="sign-up-form-desc-self">About your self</label>
+                        <textarea id="sign-up-form-desc-self" minlength="20" placeholder="describe your self" name="describe self" maxlength="150" class="text-input "></textarea>
+                    </div>
+                    <div class="inputwrapper">
+                        <input value="true" type="checkbox">
+                        <label for="create-account-fashion-news" class="checkbox-label"> Yes, email me offers, style updates, and
+            special invites to sales and events.</label>
+
+                    </div>
+                    <p class="text">By clicking ‘Become a member’, I agree to the Adorn Loyalty program <a>Terms and conditions</a>.</p>
+                    <p class="text">To give you the full membership experience, we will process your personal data in accordance with the Adorn's
+                        <a href="#">Privacy
+            Notice</a>.</p>
+
+                    <div class="inputwrapper ">
+                        <button class="member-button" type="submit ">BECOME A MEMBER</button>
+                    </div>
+                </form>
+
+
+            </section>
+        </main>
+        <footer id="footer ">
+            <div>
+                <ul class="icons ">
+                    <li>
+                        <a href="# ">
+                            <img class="iconSocial " src="images/fb.png " alt="icon ">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="# ">
+                            <img class="iconSocial " src="images/ig.png " alt="icon ">
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="# ">
+                            <img class="iconSocial " src="images/pin.png " alt="icon ">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="# ">
+                            <img class="iconSocial " src="images/yt.png " alt="icon ">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="# ">
+                            <img class="iconSocial " src="images/twi.png " alt="icon ">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="copyright ">
+                    <li>&copy;2019 Adorn All rights reserved.</li>
+                    <li>Design by rohini,priyanka</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

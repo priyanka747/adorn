@@ -1,0 +1,176 @@
+<html>
+	<head>
+		<title>Adorn</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="images/icon.png"type="image/png" >
+		<link rel="stylesheet" href="maincss.css">
+		<style>
+			main{
+				margin: auto;
+				padding: 2em;
+				display: flex;
+				max-width: 1000px;
+				flex-wrap: wrap;
+				justify-content: center; 
+				background-color: rgb(255,255,255,0.9);
+			}
+			.grid-container {
+				display: grid;
+				grid-gap: 1em;
+				width:40vh;
+			}
+
+			.grid-item {
+
+				width: 100%;
+			}
+
+			.item1 {
+				grid-column: 1 / span 2;
+				grid-row: 1;
+			}
+
+
+			.pro-des-container{
+				display: flex;
+				flex-direction: column;
+				margin: 10vh;
+				
+				
+				
+			}
+
+			.pro-des-item {
+				
+				width: 40vh;
+				margin: 10px;
+				
+			}
+			.pro-des-container button {
+				border: none;
+				width: 60%;
+				align-self: center;
+				margin-top: 4em;
+				font-size: 1em;
+				padding: .7em;
+				border-radius: .3em;
+				box-shadow: 9px 5px 8px #888888;
+			}
+
+
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<p class="mainName"><a href="WelcomePage.html">
+					Adorn</a></p>
+				<nav>
+					<div class="clothing-container">
+						<div class="clothing-button">Clothes</div>
+
+						<div class="clothing-content">
+							<ul>
+								<li>
+									<h3>
+										<a href="dresses.html">Dresses</a>
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="dresses.html">Shirts</a>
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="dresses.html">Bottoms</a>
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="dresses.html">Blouses</a>
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="dresses.html">Tops</a>
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="dresses.html">Skirts</a>
+									</h3>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<a href="dresses.html">Dresses</a>
+					<a href="shoes.html">Shoes</a>
+					<a href="accessories.html">Accessories</a>
+					<a href="#sale.html">Sale</a>
+					<div class="search">
+						<form action="/action_page.php">
+							<input type="text" placeholder="Search.." name="search">
+							<button type="submit"><img src="images/search.png"></button>
+						</form>
+					</div>
+
+				</nav>
+			</header>
+			<main>
+				<div class="grid-container">
+					<img src="images/1.jpg" class="grid-item item1"alt="dress">
+					<img src="images/1_1.jpg" class="grid-item item2" alt="dress">
+					<img src="images/1_2.jpg" class="grid-item item3" alt="dress">
+				</div>
+				<div class="pro-des-container">
+					<h1 class="pro-des-item item1"> Embellished White dress</h1>
+					<h5 class="pro-des-item item2"> 29.99$</h5>
+					<p class="pro-des-item item3">Sleeveless bodysuit with deep V-neckline. Sequin appliqué. Hem snap button closure.</p>
+					<p class="pro-des-item item4"> S / M / L</p>
+					<button type="button" onclick="alert('Item added to cart! :)')">Add To Cart</button>
+				</div>
+
+			</main>
+			<footer id="footer">
+				<ul class="icons">
+					<li>
+						<a href="#" >
+							<img class="iconSocial"  src="images/fb.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#" >
+							<img class="iconSocial"  src="images/ig.png" alt="icon">
+
+						</a>
+					</li>
+
+					<li>
+						<a href="#" >
+							<img class="iconSocial" src="images/pin.png" alt="icon">
+						</a>
+					</li>
+
+					<li>
+						<a href="#" >
+							<img class="iconSocial" src="images/yt.png" alt="icon">
+						</a>
+					</li>
+					<li>
+						<a href="#" >
+							<img class="iconSocial" src="images/twi.png" alt="icon">
+						</a>
+					</li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Mary Of Slience. All rights reserved.</li>
+					<li>Design by rohini,priyanka</li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+</html>
