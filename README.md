@@ -1,5 +1,5 @@
 <img src="https://github.com/RohiniLawrence/Adorn/blob/master/images/icon.png" width="60"> __ADORN__ 
-# E-Commerce Website
+# ADORN | E-Commerce Website
 A fully responsive e-commerce fashion website for browsing and buying clothes.
 
 ## Cool things to look out for:  
