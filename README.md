@@ -13,6 +13,6 @@ A fully responsive e-commerce fashion website for browsing and buying clothes.
  Languages & Libraries : **HTML, CSS** 
  
  ## The website: 
-<img src="https://github.com/RohiniLawrence/rohinilawrence.github.io/blob/master/images/Main%20Adorn.gifhttps://github.com/RohiniLawrence/rohinilawrence.github.io/blob/master/images/Cold%20House.gif" width="600"> 
+<img src="https://github.com/RohiniLawrence/rohinilawrence.github.io/blob/master/images/Main%20Adorn.gif" width="600"> 
 
 
