@@ -1,7 +1,7 @@
 # Adorn | E-Commerce Website
 A fully responsive e-commerce fashion website for browsing and buying clothes.
 
-## Cool effects to look out for:  
+## Cool things to look out for:  
 * __Home Page:__ Sliding banners, brand campaign video, transparent drop down menu, a cool looking map at the bottom of the page.
 * __All Produt Pages:__ Rollover on hover, a product detail page.
 * The animated logo on page load.
