@@ -2,8 +2,8 @@
 A fully responsive e-commerce fashion website for browsing and buying clothes.
 
 ## Cool effects to look out for:  
-* Home Page: Sliding banners, video, transparent drop down menu, a cool looking map.
-* All Produt Pages: Rollover on hover, a product detail page.
+* __Home Page:__ Sliding banners, brand campaign video, transparent drop down menu, a cool looking map at the bottom of the page.
+* __All Produt Pages:__ Rollover on hover, a product detail page.
 * The animated logo on page load.
 * Fully validated form.
 * A pretty UI.
