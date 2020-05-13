@@ -10,7 +10,7 @@ A fully responsive e-commerce fashion website for browsing and buying clothes.
 * A pretty UI.
 
 ## Tools Used: 
- Code Editor Used:  **Brackets**  
+ Code Editor Used:  **VS Code**  
  Languages & Libraries : **HTML, CSS** 
  
  ## The website: 
