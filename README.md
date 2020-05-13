@@ -1,4 +1,4 @@
-# Adorn | E-Commerce Clothing Website
+# Adorn | E-Commerce Website
 A fully responsive e-commerce fashion website for browsing and buying clothes.
 
 ## Cool effects to look out for:  
