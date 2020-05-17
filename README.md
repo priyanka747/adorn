@@ -1,6 +1,6 @@
 <img src="https://github.com/RohiniLawrence/Adorn/blob/master/images/icon.png" width="60"> __ADORN LOGO__   
   
-[__Click Here to see a live DEMO__](http://rohinilawrence.com/adorn/){:target="_blank"}
+[__Click Here to see a live DEMO__](http://rohinilawrence.com/adorn/){:target="_blank" rel="noopener"}
 
 # ADORN | E-Commerce Website
 A fully responsive e-commerce fashion website for browsing and buying clothes.
